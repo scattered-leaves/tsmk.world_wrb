@@ -1,0 +1,84 @@
+body {
+    background-image: url("/image/p2.png");
+
+}
+
+.p2png {
+    top: 0;
+    height: 100vh;
+    left: calc(calc(calc(100vh / 1080 * 1920) - 100%) / 2 * -1);
+    z-index: -1;
+    position: fixed;
+}
+
+.mandiv {
+    margin-top: calc(100vh * 0.22);
+    margin-bottom: 10%;
+    position: relative;
+    padding: 5% 4% 4%;
+
+    margin-left: 11%;
+    margin-right: 11%;
+
+    background-color: #fafafa;
+    border-radius: 9px;
+}
+
+h1 {
+
+    text-align: center;
+    color: #19a3ff;
+}
+
+h2 {}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.upbutton {
+    position: relative;
+    background-color: #19a3ff;
+    width: 50%;
+    border-radius: 4px;
+    height: 10vh;
+    left: 25%;
+    text-align: center;
+    text-decoration: none;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 200%;
+}
+
+.infodiv {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    padding: 2%;
+    z-index: 100;
+    background-color: #16131378;
+    border-radius: 9px;
+    visibility: hidden;    
+    transform: translate(-50% , -50%);
+}
+
+
+
+
+      
+
+
+
+          

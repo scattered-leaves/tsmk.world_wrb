@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    overflow-x: hidden !important;
+    /* 取消横向滚动条 */
+    /*overflow-y: hidden !important; /* 取消竖向滚动条 */
+    /*background-color: rgba(0,0,0,.6);*/
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.figer {
+    transform: translateZ(0);
+}
+
+.header {
+    /*导航栏主体*/
+    top: 0px;
+    display: flex;
+    width: 100%;
+    height: 66px;
+    position: fixed;
+    /*固定位置*/
+    z-index: 999;
+    background-color: rgba(17, 17, 17, 0.75);
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 35%);
+    /*阴影效果*/
+    transition: height 0.8s ease-out;
+}
+
+.header__logo--cut {
+    /*导航栏logo*/
+    position: absolute;
+    top: 0px;
+}
+
+.colicon {
+    /*导航栏logo样式*/
+    height: 64px;
+    width: 64px;
+}
+
+.header__navbar {
+    /*导航栏显示区域*/
+    display: flex;
+    width: 800px;
+    height: 66px;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+    margin-left: 40px;
+}
+
+.header_Cloud {
+    /*导航栏当前页面提示块*/
+    position: absolute;
+    z-index: 1;
+    transition: all 0.2s ease-out 0s;
+    background-color: #66ccff;
+    height: 5px;
+    top: 0px;
+    transform: translateZ(0);
+}
+
+.header_navitem a {
+    /*导航栏文字属性*/
+    position: relative;
+    left: 240px;
+    top: 0px;
+    float: left;
+    width: 40px;
+    height: 66px;
+    margin: 0 29px;
+    margin: 0 30px !important;
+    line-height: 66px;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ccc;
+    text-align: center;
+    cursor: pointer;
+    transform: translateZ(0);
+}
+
+.di\@ {
+    position: relative;
+    color: #fafafa;
+    margin: auto;
+    top: 70%;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+
+    bottom: 0px;
+
+    width: 100%;
+
+    background-color: #3c4044;
+}
